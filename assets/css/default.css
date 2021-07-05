@@ -235,6 +235,7 @@ footer p {
     -webkit-column-gap: 60px;
             column-gap: 60px;
     margin: 40px;
+    row-gap: 60px;
   }
 }
 /*# sourceMappingURL=default.css.map */
