@@ -208,6 +208,9 @@ footer p {
 }
 
 @media screen and (min-width: 960px) {
+  header {
+    padding: 50px;
+  }
   header .search-bar input[type=search] {
     width: 25rem;
     -webkit-transition: all 0.2s;
