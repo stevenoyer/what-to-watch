@@ -15,7 +15,7 @@
 <body>
     
     <header>
-        <h1>What to Watch ?</h1>
+        <h1>What To Watch ?</h1>
 
         <div class="search-bar">
             <input type="search" placeholder="Type your search...">
@@ -24,135 +24,30 @@
     </header>
 
     <main>
-        <section class="articles">
-            <article>
+        <section id="articles" class="articles"></section>
 
+        <template id="template-article">
+            <article>
                 <div class="poster">
-                    <img id="poster-img" class="poster-img" src="8kNruSfhk5IoE4eZOc4UpvDn6tq 4.png" alt="">
-                    <button id="button-plus"></button>
+                    <img id="poster-img" class="poster-img" src="" alt="">
+                    <button id="button-plus" class="button-plus"></button>
                 </div>
 
                 <div id="overview" class="overview">
                     <div class="overview-header">
                         <h2>Overview</h2>
-                        <button id="button-close"></button>
+                        <button id="button-close" class="button-close"></button>
                     </div>
-                    <p>A ticking-time-bomb insomniac and a slippery soap salesman channel primal male aggression into a shocking new form of therapy. Their concept catches on, with underground fight clubs forming in every town, until an eccentric gets in the way and ignites an out-of-control spiral toward oblivion.</p>
+                    <p id="overview-text"></p>
                 </div>
 
                 <div class="footer-info">
-                    <p>Fight Club - Available on <a href="">Netflix</a></p>
-                    <p>12 mars 2006</p>
+                    <p id="title-movie"></p>
+                    <p id="date-movie"></p>
                 </div>
 
             </article>
-            <article>
-
-                <div class="poster">
-                    <img id="poster-img" class="poster-img" src="8kNruSfhk5IoE4eZOc4UpvDn6tq 4.png" alt="">
-                    <button id="button-plus"></button>
-                </div>
-
-                <div id="overview" class="overview">
-                    <div class="overview-header">
-                        <h2>Overview</h2>
-                        <button id="button-close"></button>
-                    </div>
-                    <p>A ticking-time-bomb insomniac and a slippery soap salesman channel primal male aggression into a shocking new form of therapy. Their concept catches on, with underground fight clubs forming in every town, until an eccentric gets in the way and ignites an out-of-control spiral toward oblivion.</p>
-                </div>
-
-                <div class="footer-info">
-                    <p>Fight Club - Available on <a href="">Netflix</a></p>
-                    <p>12 mars 2006</p>
-                </div>
-
-            </article>
-            <article>
-
-                <div class="poster">
-                    <img id="poster-img" class="poster-img" src="8kNruSfhk5IoE4eZOc4UpvDn6tq 4.png" alt="">
-                    <button id="button-plus"></button>
-                </div>
-
-                <div id="overview" class="overview">
-                    <div class="overview-header">
-                        <h2>Overview</h2>
-                        <button id="button-close"></button>
-                    </div>
-                    <p>A ticking-time-bomb insomniac and a slippery soap salesman channel primal male aggression into a shocking new form of therapy. Their concept catches on, with underground fight clubs forming in every town, until an eccentric gets in the way and ignites an out-of-control spiral toward oblivion.</p>
-                </div>
-
-                <div class="footer-info">
-                    <p>Fight Club - Available on <a href="">Netflix</a></p>
-                    <p>12 mars 2006</p>
-                </div>
-
-            </article>
-            <article>
-
-                <div class="poster">
-                    <img id="poster-img" class="poster-img" src="8kNruSfhk5IoE4eZOc4UpvDn6tq 4.png" alt="">
-                    <button id="button-plus"></button>
-                </div>
-
-                <div id="overview" class="overview">
-                    <div class="overview-header">
-                        <h2>Overview</h2>
-                        <button id="button-close"></button>
-                    </div>
-                    <p>A ticking-time-bomb insomniac and a slippery soap salesman channel primal male aggression into a shocking new form of therapy. Their concept catches on, with underground fight clubs forming in every town, until an eccentric gets in the way and ignites an out-of-control spiral toward oblivion.</p>
-                </div>
-
-                <div class="footer-info">
-                    <p>Fight Club - Available on <a href="">Netflix</a></p>
-                    <p>12 mars 2006</p>
-                </div>
-
-            </article>
-            <article>
-
-                <div class="poster">
-                    <img id="poster-img" class="poster-img" src="8kNruSfhk5IoE4eZOc4UpvDn6tq 4.png" alt="">
-                    <button id="button-plus"></button>
-                </div>
-
-                <div id="overview" class="overview">
-                    <div class="overview-header">
-                        <h2>Overview</h2>
-                        <button id="button-close"></button>
-                    </div>
-                    <p>A ticking-time-bomb insomniac and a slippery soap salesman channel primal male aggression into a shocking new form of therapy. Their concept catches on, with underground fight clubs forming in every town, until an eccentric gets in the way and ignites an out-of-control spiral toward oblivion.</p>
-                </div>
-
-                <div class="footer-info">
-                    <p>Fight Club - Available on <a href="">Netflix</a></p>
-                    <p>12 mars 2006</p>
-                </div>
-
-            </article>
-            <article>
-
-                <div class="poster">
-                    <img id="poster-img" class="poster-img" src="8kNruSfhk5IoE4eZOc4UpvDn6tq 4.png" alt="">
-                    <button id="button-plus"></button>
-                </div>
-
-                <div id="overview" class="overview">
-                    <div class="overview-header">
-                        <h2>Overview</h2>
-                        <button id="button-close"></button>
-                    </div>
-                    <p>A ticking-time-bomb insomniac and a slippery soap salesman channel primal male aggression into a shocking new form of therapy. Their concept catches on, with underground fight clubs forming in every town, until an eccentric gets in the way and ignites an out-of-control spiral toward oblivion.</p>
-                </div>
-
-                <div class="footer-info">
-                    <p>Fight Club - Available on <a href="">Netflix</a></p>
-                    <p>12 mars 2006</p>
-                </div>
-
-            </article>
-
-        </section>
+        </template>
     </main>
 
     <footer>
